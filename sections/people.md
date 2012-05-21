@@ -8,14 +8,14 @@ Get people
 
 * `GET /people.xml` returns a collection of people that are visible to the authenticated user.
 * `GET /people.xml?n=500` returns a collection of people that are visible to the authenticated user offset by the given amount. (page limit of 500)
-* `GET /people.xml?title=CEO` returns a collection of people that have a specific title. Uses pagination like List All. If no people with that title exist, an empty people container will be returned.
+* `GET /people.xml?title=CEO` returns a collection of people that have a specific title.
 * `GET /people.xml?tag_id=#{tag_id}` returns a collection of people that have been tagged with the tag responding to `#{tag_id}`.
 * `GET /people.xml?since=20070425154546` returns a collection of people that have been created or updated since the time passed in through the URL.
 * `GET /companies/#{company_id}/people.xml` returns a collection of people that belong to the company referenced in the URL.
 
-If no people are returned for a given search, an empty `<people>` element will be in the response.
+If no people are returned for the given parameters, an empty `<people>` container will be in the response.
 
-When filtering with the `since` parameter, the collection is ordered by ascending `updated_at` (oldest to newest). The since parameter should be in the `yyyymmddhhmmss` format and in UTC.
+When filtering with the `since` parameter, the collection is ordered by ascending `updated_at` (oldest to newest). The `since` parameter should be in the `yyyymmddhhmmss` format and in UTC.
 
 **Response:**
 
@@ -45,13 +45,9 @@ If no people with the given criteria or term exist an empty people container wil
 <people>
   <person>
     ...
-    <first_name>David</first_name>
-    <last_name>Heinemeier Hansson</last_name>
   </person>
   <person>
     ...
-    <first_name>Donald</first_name>
-    <last_name>Davidson</last_name>
   </person>
 </people>
 ```
@@ -133,7 +129,7 @@ The XML for the new person is returned on a successful request with the timestam
 
 Additionally, the `company-name` is used to either lookup a company with that name or create a new one if it didn’t already exist. You can also refer to an existing company instead using `company-id`.
 
-By default, a new person is assumed to be visible to Everyone. You can also chose to make the person only visible to the creator using `Owner` as the value for the visible-to tag. Or `NamedGroup` and pass in a group-id tag too.
+By default, a new person is assumed to be visible to `Everyone`. You can also chose to make the person only visible to the creator using `Owner` as the value for the visible-to tag. Or `NamedGroup` and pass in a group-id tag too.
 
 If the account doesn’t allow for more people to be created, a `507 Insufficient Storage` response will be returned.
 
