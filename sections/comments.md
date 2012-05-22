@@ -1,6 +1,8 @@
 Comments
 ========
 
+For the full XML representation of comments, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#comment).
+
 Get comment
 -----------
 

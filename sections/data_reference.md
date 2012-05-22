@@ -121,8 +121,8 @@ Contact data for person and company
 </contact-data>
 ```
 
-Custom fields for person and company
-------------------------------------
+Custom fields
+-------------
 
 ``` xml
 <subject_datas type="array">

@@ -3,6 +3,9 @@ Categories (Tasks, Deals)
 
 The categories API is identical for both Task categories, and Deal categories, with the only difference being the URL. For Task categories, the API should be prefixed with `task_categories`, and for Deal categories, `deal_categories`. In the documentation that follows, the generic `#{type}_categories` will be used, but you should replace that with the category collection you wish to query.
 
+For the full XML representation of categories, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#category).
+
+
 Get category
 ------------
 

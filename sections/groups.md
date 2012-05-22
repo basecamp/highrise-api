@@ -3,6 +3,9 @@ Groups
 
 The authenticated user needs to be an administrator to perform these actions.
 
+For the full XML representation of groups, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#group).
+
+
 Get group
 ---------
 

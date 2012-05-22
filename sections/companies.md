@@ -1,6 +1,9 @@
 Companies
 =========
 
+For the full XML representation of companies, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#company).
+
+
 Get company
 -----------
 

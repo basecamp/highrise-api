@@ -3,6 +3,8 @@ Memberships
 
 For linking users and groups together. The authenticated user needs to be an administrator to perform these actions.
 
+For the full XML representation of memberships, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#membership).
+
 
 Get membership
 --------------
