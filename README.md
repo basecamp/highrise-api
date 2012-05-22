@@ -57,12 +57,12 @@ Remember that anyone who has your authentication token can see and change everyt
 
 You can also use OAuth 2 to authenticate users on their behalf without having to copy/paste API tokens or touch sensitive login info. Read the [37signals API Authentication Guide](https://github.com/37signals/api/tree/master/sections/authentication.md) for more info on using OAuth.
 
-Note that the /me.xml endpoint is the one exception to token authentication: you can use a username and password to authenticate against this action. This allows developers to obtain the token for a user, given that user's username and password, which makes it easier for users to authenticate on mobile platforms and the like.
+Note that the `/me.xml` endpoint is the one exception to token authentication: you can use a username and password to authenticate against this action. This allows developers to obtain the token for a user, given that user's username and password, which makes it easier for users to authenticate on mobile platforms and the like.
 
 Reading through the API
 -----------------------
 
-The Highrise API has two category of actions for reading: Show and list. Show returns a single record and list returns a collection. There's usually just a single show action for each resource, but many lists. All these actions are done through GET, which also means that they're all easily explorable through a browser as described above.
+The Highrise API has two category of actions for reading: Get one, or get many. All these actions are done through an HTTP GET, which also means that they're all easily explorable through a browser as described above.
 
 Here's a few examples of reading with curl:
 
