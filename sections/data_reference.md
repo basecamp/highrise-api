@@ -12,8 +12,8 @@ Case
   <created-at type="datetime"></created-at>
   <updated-at type="datetime">2007-03-19T22:34:22Z</updated-at>
   <visible-to>#{Everyone || Owner || NamedGroup}</visible-to>
-  <owner-id type="integer">#{ user_id -- when visble-to is "Owner"}</owner-id>
-  <group-id type="integer">#{ group_id -- when visble-to is "NamedGroup"}</group-id>
+  <owner-id type="integer">#{ user_id -- when visible-to is "Owner"}</owner-id>
+  <group-id type="integer">#{ group_id -- when visible-to is "NamedGroup"}</group-id>
   <author-id type="integer">3</author-id>
   <parties type="array">
     <party>...</party>
@@ -45,8 +45,8 @@ Company
   <created-at type="datetime">2007-02-27T03:11:52Z</created-at>
   <updated-at type="datetime">2007-03-10T15:11:52Z</updated-at>
   <visible-to>#{Everyone || Owner || NamedGroup}</visible-to>
-  <owner-id type="integer">#{ user_id -- when visble-to is "Owner"}</owner-id>
-  <group-id type="integer">#{ group_id -- when visble-to is "NamedGroup"}</group-id>
+  <owner-id type="integer">#{ user_id -- when visible-to is "Owner"}</owner-id>
+  <group-id type="integer">#{ group_id -- when visible-to is "NamedGroup"}</group-id>
   <author-id type="integer">3</author-id>
   <contact-data>
     ...
@@ -185,8 +185,8 @@ Email
   <collection-id type="integer">1</subject-id>
   <collection-type>#{ Deal || Kase }</subject-type>
   <visible-to>#{Everyone || Owner || NamedGroup}</visible-to>
-  <owner-id type="integer">#{ user_id -- when visble-to is "Owner"}</owner-id>
-  <group-id type="integer">#{ group_id -- when visble-to is "NamedGroup"}</group-id>
+  <owner-id type="integer">#{ user_id -- when visible-to is "Owner"}</owner-id>
+  <group-id type="integer">#{ group_id -- when visible-to is "NamedGroup"}</group-id>
   <updated-at type="datetime">2007-02-27T18:42:28Z</updated-at>
   <created-at type="datetime">2006-05-16T17:26:00Z</created-at>
   <attachments>
@@ -251,8 +251,8 @@ Note
   <collection-id type="integer">1</subject-id>
   <collection-type>#{ Deal || Kase }</subject-type>
   <visible-to>#{Everyone || Owner || NamedGroup}</visible-to>
-  <owner-id type="integer">#{ user_id -- when visble-to is "Owner"}</owner-id>
-  <group-id type="integer">#{ group_id -- when visble-to is "NamedGroup"}</group-id>
+  <owner-id type="integer">#{ user_id -- when visible-to is "Owner"}</owner-id>
+  <group-id type="integer">#{ group_id -- when visible-to is "NamedGroup"}</group-id>
   <updated-at type="datetime">2007-02-27T18:42:28Z</updated-at>
   <created-at type="datetime">2006-05-16T17:26:00Z</created-at>
   <attachments>
@@ -286,8 +286,8 @@ Person
   <created-at type="datetime">2007-02-27T03:11:52Z</created-at>
   <updated-at type="datetime">2007-03-10T15:11:52Z</updated-at>
   <visible-to>#{Everyone || Owner || NamedGroup}</visible-to>
-  <owner-id type="integer">#{ user_id -- when visble-to is "Owner"}</owner-id>
-  <group-id type="integer">#{ group_id -- when visble-to is "NamedGroup"}</group-id>
+  <owner-id type="integer">#{ user_id -- when visible-to is "Owner"}</owner-id>
+  <group-id type="integer">#{ group_id -- when visible-to is "NamedGroup"}</group-id>
   <author-id type="integer">3</author-id>
   <contact-data>
     ...

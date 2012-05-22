@@ -3,6 +3,9 @@ Custom Fields
 
 Use the custom fields API to define, rename, and delete custom fields on an account.
 
+For the full XML representation of custom fields, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#custom_field).
+
+
 Get custom fields
 -----------------
 
