@@ -37,6 +37,8 @@ API Endpoints
 * [Recordings](https://github.com/37signals/highrise-api/blob/master/sections/recordings.md)
 * [Custom Fields](https://github.com/37signals/highrise-api/blob/master/sections/custom_fields.md)
 
+(Hint: Press `t` to enable the file finder and type out the endpoint you need!)
+
 Need a sample of each XML blob will look like? Check out the [Data Reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md).
 
 
@@ -66,7 +68,6 @@ Here's a few examples of reading with curl:
 
     curl -u 605b32dd:X https://example.highrisehq.com/kases/5.xml
 
-
     curl -u 605b32dd:X https://example.highrisehq.com/people/27/notes.xml
 
 If the read is successful, you'll get an XML response back along with the status code `200 OK`.
@@ -83,7 +84,6 @@ Here's a few examples creating new resources, first with the XML inline, second 
     curl -u 605b32dd:X -H 'Content-Type: application/xml' \
     -d '<kase><name>Important matters</name></kase>' https://example.highrisehq.com/kases.xml
 
-
     curl -u 605b32dd:X -H 'Content-Type: application/xml' \
     -d @note.xml https://example.highrisehq.com/people/5/notes.xml
 
@@ -94,14 +94,12 @@ Updating resources is done through the PUT verb and against the URL of the resou
     curl -u 605b32dd:X -X PUT -H 'Content-Type: application/xml' \
     -d '<kase><name>Really important matters</name></kase>' https://example.highrisehq.com/kases/5.xml
 
-
     curl -u 605b32dd:X -X PUT -H 'Content-Type: application/xml' \
     -d @note.xml https://example.highrisehq.com/notes/27.xml
 
 The response to a successful update is "200 OK".  Finally, you can delete resources (if you're allowed to) using the DELETE verb. A few examples of that:
 
     curl -u 605b32dd:X -X DELETE https://example.highrisehq.com/kases/5.xml
-
 
     curl -u 605b32dd:X -X DELETE https://example.highrisehq.com/notes/27.xml
 
