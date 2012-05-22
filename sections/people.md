@@ -227,7 +227,7 @@ Use `?reload=true` to get XML of the successfully updated person.
 
 **Response:**
 
-Status: 200 OK
+    Status: 200 OK
 
 Destroy person
 --------------
@@ -236,4 +236,4 @@ Destroy person
 
 **Response:**
 
-Status: 200 OK
+    Status: 200 OK

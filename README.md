@@ -53,7 +53,7 @@ Here's an example using the authentication token and a dummy password through cu
 
 Remember that anyone who has your authentication token can see and change everything you have access to. So you want to guard that as well as you guard your username and password. If you come to fear that it has been compromised, you can regenerate it at any time from the "My Info" screen in Highrise.
 
-You can also use OAuth 2 to authenticate users on their behalf without having to copy/paste API tokens or touch sensitive login info. Read the [37signals API Authentication Guide](https://github.com/37signals/api-authentication) for more info on using OAuth.
+You can also use OAuth 2 to authenticate users on their behalf without having to copy/paste API tokens or touch sensitive login info. Read the [37signals API Authentication Guide](https://github.com/37signals/api/tree/master/sections/authentication.md) for more info on using OAuth.
 
 Note that the /me.xml endpoint is the one exception to token authentication: you can use a username and password to authenticate against this action. This allows developers to obtain the token for a user, given that user's username and password, which makes it easier for users to authenticate on mobile platforms and the like.
 
