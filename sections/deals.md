@@ -83,7 +83,7 @@ By default, a new deal is assumed to be visible to `Everyone`. You can also choo
 
 If the account doesn’t allow for more deals to be created, a `507 Insufficient Storage` response will be returned.
 
-See the [Get deal](#get_deal) call for a description of what the different fields mean.
+See the [Get deal](#get-deal) call for a description of what the different fields mean.
 
 **Request:**
 
@@ -117,7 +117,7 @@ Update deal
 
 * `PUT /deals/#{id}.xml` updates information about the given deal.
 
-Note that changes to a deal’s status should be done via the [Update deal status](#update_deal_status) call, and not via this call. Attempts to update the status via this API call will silently ignore the status field.
+Note that changes to a deal’s status should be done via the [Update deal status](#update-deal-status) call, and not via this call. Attempts to update the status via this API call will silently ignore the status field.
 
 Changes to a deal’s contacts cannot be made at this time. Any additions to the `parties` field will be ignored.
 

@@ -101,7 +101,7 @@ Create for specific time
 
 * `POST /tasks.xml` creates a new task for a specific time, like April 9th at 7:30pm.
 
-See the description for [Create task for time frame](#create_task_for_time_frame) for a description of the possible options.
+See the description for [Create task for time frame](#create-task-for-time-frame) for a description of the possible options.
 
 **Request:**
 
