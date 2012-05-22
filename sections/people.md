@@ -129,7 +129,7 @@ The XML for the new person is returned on a successful request with the timestam
 
 Additionally, the `company-name` is used to either lookup a company with that name or create a new one if it didn’t already exist. You can also refer to an existing company instead using `company-id`.
 
-By default, a new person is assumed to be visible to `Everyone`. You can also chose to make the person only visible to the creator using `Owner` as the value for the visible-to tag. Or `NamedGroup` and pass in a group-id tag too.
+By default, a new person is assumed to be visible to `Everyone`. You can also chose to make the person only visible to the creator using `Owner` as the value for the `visible-to` tag. Or `NamedGroup` and pass in a `group-id` tag too.
 
 If the account doesn’t allow for more people to be created, a `507 Insufficient Storage` response will be returned.
 
