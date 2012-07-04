@@ -36,6 +36,7 @@ API Endpoints
 * [Parties](https://github.com/37signals/highrise-api/blob/master/sections/parties.md)
 * [Recordings](https://github.com/37signals/highrise-api/blob/master/sections/recordings.md)
 * [Custom Fields](https://github.com/37signals/highrise-api/blob/master/sections/custom_fields.md)
+* [Deletions](https://github.com/37signals/highrise-api/blob/master/sections/deletions.md)
 
 (Hint: Press `t` to enable the file finder and type out the endpoint you need!)
 

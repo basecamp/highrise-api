@@ -346,3 +346,19 @@ User
   <dropbox>#{dropbox_email_address}</dropbox>
 </user>
 ```
+
+Deletions
+---------
+
+``` xml
+<deletions type="array">
+  <deletion type="Company">
+    <id type="integer">88602616</id>
+    <deleted-at type="datetime">2011-10-06T10:03:41Z</deleted-at>
+  </deletion>
+  <deletion type="Person">
+    <id type="integer">88602673</id>
+    <deleted-at type="datetime">2011-10-06T10:05:31Z</deleted-at>
+  </deletion>
+</deletions>
+```
