@@ -39,6 +39,8 @@ Get tasks
 * `GET /tasks/assigned.xml` returns a collection of upcoming tasks (tasks that have not yet been completed, regardless of whether they’re overdue) that were created by the authenticated user, but assigned to somebody else.
 * `GET /tasks/completed.xml` returns a collection of completed tasks.
 
+None of these are paginated.
+
 **Response:**
 
 ``` xml

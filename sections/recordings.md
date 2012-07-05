@@ -6,6 +6,8 @@ Recordings
 
 The collection is ordered from oldest to newest. The `since` parameter is expressed as `yyyymmddhhmmss` in the UTC timezone. Recordings are paginated using offsets. If 25 elements are returned (the page limit), use `?n=25` to fetch the next 25, and so on.
 
+For details on the individual recording contents see the [notes](https://github.com/37signals/highrise-api/blob/master/sections/notes.md), [comments](https://github.com/37signals/highrise-api/blob/master/sections/comments.md), and [emails](https://github.com/37signals/highrise-api/blob/master/sections/emails.md) references.
+
 **Response:**
 
 ``` xml
