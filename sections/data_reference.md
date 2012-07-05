@@ -342,6 +342,22 @@ Person
 </person>
 ```
 
+Recordings
+----------
+
+``` xml
+<recordings type="array">
+  <recording type="Email">
+    ...
+    <updated-at>2007-04-26T13:12:52Z</updated-at>
+  </recording>
+  <recording type="Note">
+    ...
+    <updated-at>2007-04-25T17:11:52Z</updated-at>
+  </recording>
+</recordings>
+```
+
 Tag
 ---
 
