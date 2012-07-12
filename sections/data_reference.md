@@ -1,6 +1,9 @@
 Data Reference
 ==============
 
+All timestamps communicated from (and to) Highrise are in the `UTC` timezone.
+
+
 Case
 ----
 
