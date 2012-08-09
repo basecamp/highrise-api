@@ -60,6 +60,7 @@ You can also use OAuth 2 to authenticate users on their behalf without having to
 
 Note that the `/me.xml` endpoint is the one exception to token authentication: you can use a username and password to authenticate against this action. This allows developers to obtain the token for a user, given that user's username and password, which makes it easier for users to authenticate on mobile platforms and the like.
 
+
 Reading through the API
 -----------------------
 
@@ -72,6 +73,7 @@ Here's a few examples of reading with curl:
     curl -u 605b32dd:X https://example.highrisehq.com/people/27/notes.xml
 
 If the read is successful, you'll get an XML response back along with the status code `200 OK`.
+
 
 Writing through the API
 -----------------------
