@@ -17,6 +17,7 @@ Get category
 <#{type}-category>
   <id type="integer"></id>
   <name></name>
+  <color></color>
   <account-id type="integer"></account-id>
   <created-at type="datetime"></created-at>
   <updated-at type="datetime"></updated-at>
@@ -52,8 +53,11 @@ Create category
 ``` xml
 <#{type}-category>
   <name>#{name}</name>
+  <color>#{hex-color}</color>
 </#{type}-category>
 ```
+
+Color should be a [web color in hexadecimal format](http://en.wikipedia.org/wiki/Web_colors), e.g., ffcc33.
 
 **Response:**
 
