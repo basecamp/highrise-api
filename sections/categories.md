@@ -57,7 +57,7 @@ Create category
 </#{type}-category>
 ```
 
-Color should be a [web color in hexadecimal format](http://en.wikipedia.org/wiki/Web_colors), e.g., ffcc33.
+Color is optional. If provided, it should be a [web color in hexadecimal format](http://en.wikipedia.org/wiki/Web_colors), e.g., ffcc33. Defaults to 000000 (black).
 
 **Response:**
 
