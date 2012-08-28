@@ -88,8 +88,6 @@ Destroy category
 
 * `DELETE /#{type}_categories/#{id}.xml` destroys a category. 
 
-Note: that you can only destroy categories that are empty (i.e., they contain no deals, for deal categories, or tasks, for task_categories). Attempting to delete a non-empty category will result in a `422 Unprocessable Entity`.
-
 **Response:**
 
     Status: 200 OK
