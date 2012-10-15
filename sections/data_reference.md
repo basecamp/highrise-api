@@ -329,6 +329,7 @@ Person
   <last-name>Doe</last-name>
   <title>Stand-in</title>
   <background>A popular guy for random data</background>
+  <linkedin_url>http://us.linkedin.com/in/john-doe</linkedin_url>
   <company-id type="integer">2</company-id>
   <company-name>Doe Inc.</company-name>
   <created-at type="datetime">2007-02-27T03:11:52Z</created-at>

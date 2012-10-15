@@ -68,6 +68,7 @@ Get person
   <last-name>Doe</last-name>
   <title>Stand-in</title>
   <background>A popular guy for random data</background>
+  <linkedin_url>http://us.linkedin.com/in/john-doe</linkedin_url>
   <company-id type="integer">5</company-id>
   <company-name>Doe Inc.</company-name>
   <created-at type="datetime">2007-02-27T03:11:52Z</created-at>
@@ -144,6 +145,7 @@ If the account doesn’t allow for more people to be created, a `507 Insufficien
   <title>CEO</title>
   <company-name>Doe Inc.</company-name>
   <background>A popular guy for random data</background>
+  <linkedin_url>http://us.linkedin.com/in/john-doe</linkedin_url>
   <contact-data>
     <email-addresses>
       <email-address>
@@ -199,6 +201,7 @@ Use `?reload=true` to get XML of the successfully updated person.
   <title>CEO</title>
   <company-id>1</company-id>
   <background>A popular guy for random data</background>
+  <linkedin_url>http://us.linkedin.com/in/john-doe</linkedin_url>
   <contact-data>
     <email-addresses>
       <email-address>
