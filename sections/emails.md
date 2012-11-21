@@ -52,7 +52,9 @@ Get emails
 
 * `GET /#{ people || companies || kases || deals }/#{subject-id}/emails.xml` returns a collection of emails that are visible to the authenticated user and related to a specific person, company, case or deal.
 
-The list is paginated using offsets. If 25 elements are returned (the page limit), use `?n=25` to fetch the next 25 and so on.
+* `GET /#{ people || companies || kases || deals }/#{subject-id}/emails.xmlsince=20070425154546` returns only the emails that have been updated since the time in the query parameter. The collection will be ordered from oldest to newest. The `since` parameter is expressed as `yyyymmddhhmmss` in the UTC timezone.
+
+Emails are paginated using offsets. If 25 elements are returned (the page limit), use `?n=25` to fetch the next 25, and so on.
 
 **Response:**
 
