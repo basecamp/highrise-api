@@ -47,6 +47,7 @@ Get deals
 * `GET /deals.xml` returns a list of deals that are visible to the authenticated user.
 * `GET /deals.xml?n=500` returns the next 500 deals
 * `GET /deals.xml?status=won` returns deals that are `won`, could also request `lost` and `pending` deals
+* `GET /deals.xml?since=20130225154546` returns the deals updated since the timestamp, oldest to newest. The `since` parameter is expressed as `yyyymmddhhmmss` in the UTC timezone.
 
 **Response:**
 
