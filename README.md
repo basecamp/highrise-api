@@ -12,6 +12,7 @@ Wrappers and example code
 * [Pyrise by FeedMagnet](https://github.com/feedmagnet/pyrise)
 * [Highrise-PHP-Api](https://github.com/ignaciovazquez/Highrise-PHP-Api)
 * [PHP API Wrapper](http://101tec.com/en/open-source/highrise-api-wrapper)
+* [.NET 4.5 wrapper by scottschluer](https://github.com/scottschluer/highrise-api)
 
 Wrote your own API wrapper? Feel free to open a pull request and add to this list!
 
