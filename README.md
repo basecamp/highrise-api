@@ -120,6 +120,10 @@ If a request fails, the error information is returned with the HTTP status code.
 
 Note that, in general, if a request causes a new record to be created (like a new message, or to-do item, etc.), the response will use the "201 Created" status. Any other successful operation (like a successful query, delete, or update) will use a 200 status code.
 
+Rate limiting
+-------------
+
+You can perform up to 500 requests per 10 second period from the same IP address for the same account. If you exceed this limit, you'll get a `503 Service Unavailable` response for subsequent requests.  Check the `Retry-After` header to see how many seconds to wait before retrying the request.
 
 SSL Usage
 ---------
