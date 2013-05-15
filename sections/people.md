@@ -3,6 +3,8 @@ People
 
 For the full XML representation of people, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#person).
 
+The XML representation of custom fields that have been created for people [has its own data reference](https://github.com/37signals/highrise-api/blob/master/sections/custom_fields.md#person). Custom field appear in the XML inside the ``<subject-datas></subject-datas>`` XML tags.
+
 
 Get people
 ----------
@@ -99,7 +101,7 @@ Get person
       </phone-number>
     </phone-numbers>
   </contact-data>
-  <!-- custom fields -->
+  <!-- start of custom fields -->
   <subject_datas type="array">
     <subject_data>
       <id type="integer">3</id>
@@ -114,6 +116,7 @@ Get person
       <subject_field_label>Account Manager</subject_field_label>
     </subject_data>
   </subject_datas>
+  <!-- end of custom fields -->
   <tags type="array">
     <tag>
       <id type="integer">1</id>
@@ -165,13 +168,14 @@ If the account doesn’t allow for more people to be created, a `507 Insufficien
       </phone-number>
     </phone-numbers>
   </contact-data>
-  <!-- custom fields -->
+  <!-- start of custom fields -->
   <subject_datas type="array">
     <subject_data>
       <value>Chicago</value>
       <subject_field_id type="integer">2</subject_field_id>
     </subject_data>
   </subject_datas>
+  <!-- end of custom fields -->
 </person>
 ```
 
