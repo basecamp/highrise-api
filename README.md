@@ -62,6 +62,13 @@ You can also use OAuth 2 to authenticate users on their behalf without having to
 
 Note that the `/me.xml` endpoint is the one exception to token authentication: you can use a username and password to authenticate against this action. This allows developers to obtain the token for a user, given that user's username and password, which makes it easier for users to authenticate on mobile platforms and the like.
 
+Identify your app
+-----------------
+
+You should include a `User-Agent` header with the name of your application and a link to it or your email address so we can get in touch in case you're doing something wrong (so we may warn you before you're blacklisted) or something awesome (so we may congratulate you). Here's a couple of examples:
+
+    User-Agent: Freshbooks (http://freshbooks.com/contact.php)
+    User-Agent: Fabian's Ingenious Integration (fabian@example.com)
 
 Reading through the API
 -----------------------
