@@ -247,7 +247,7 @@ Email
       <id type="integer">2</id>
       <url>https://example.highrisehq.com/files/2</url>
       <name>document.txt</name>
-      <size type="integer">8837</name>
+      <size type="integer">8837</size>
     </attachment>
   </attachments>
 </email>
@@ -313,7 +313,7 @@ Note
       <id type="integer">2</id>
       <url>https://example.highrisehq.com/files/2</url>
       <name>document.txt</name>
-      <size type="integer">8837</name>
+      <size type="integer">8837</size>
     </attachment>
   </attachments>
 </note>
