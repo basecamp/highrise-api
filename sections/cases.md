@@ -62,6 +62,8 @@ By default, a new case is assumed to be visible to `Everyone`. You can also chos
 
 If the account doesn’t allow for more cases to be created, a `507 Insufficient Storage` response will be returned.
 
+Adding parties to a case isn't supported at the moment.
+
 **Request:**
 
 ``` xml
@@ -88,6 +90,8 @@ Update case
 Contact data and Subject data that include an id will be updated, data that doesn’t will be assumed to be new and created from scratch.
 
 A case is closed when the `closed-at` tag is passed.
+
+Adding parties to a case isn't supported at the moment
 
 **Request:**
 
