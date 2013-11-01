@@ -295,8 +295,8 @@ Note
   <subject-id type="integer">1</subject-id>
   <subject-type>#{ Party || Deal || Kase }</subject-type>
   <subject-name>John Doe</subject-name>
-  <collection-id type="integer">1</subject-id>
-  <collection-type>#{ Deal || Kase }</subject-type>
+  <collection-id type="integer">1</collection-id>
+  <collection-type>#{ Deal || Kase }</collection-type>
   <visible-to>#{Everyone || Owner || NamedGroup}</visible-to>
   <owner-id type="integer">#{ user_id -- when visible-to is "Owner"}</owner-id>
   <group-id type="integer">#{ group_id -- when visible-to is "NamedGroup"}</group-id>
