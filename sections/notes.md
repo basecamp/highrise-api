@@ -33,7 +33,7 @@ Attachments are included, but comments are kept separate at `/notes/#{id}/commen
       <id type="integer">1</id>
       <url>https://example.highrisehq.com/files/1</url>
       <name>picture.png</name>
-      <size type="integer">72633</name>
+      <size type="integer">72633</size>
     </attachment>
     <attachment>
       <id type="integer">2</id>
