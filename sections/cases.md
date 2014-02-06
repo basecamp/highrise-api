@@ -3,7 +3,7 @@ Cases
 
 Cases use `kase` and `kases` in the XML to work around the problem of `case` being a reserved word in Ruby.
 
-For the full XML representation of cases, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#case).
+For the full XML representation of cases, [check out the data reference](https://github.com/basecamp/highrise-api/blob/master/sections/data_reference.md#case).
 
 
 Get case

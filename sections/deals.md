@@ -1,7 +1,7 @@
 Deals
 =====
 
-For the full XML representation of deals, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#deal).
+For the full XML representation of deals, [check out the data reference](https://github.com/basecamp/highrise-api/blob/master/sections/data_reference.md#deal).
 
 
 Get deal

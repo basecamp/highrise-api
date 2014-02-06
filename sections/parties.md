@@ -1,7 +1,7 @@
 Parties
 =======
 
-For the full XML representation of parties, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#party).
+For the full XML representation of parties, [check out the data reference](https://github.com/basecamp/highrise-api/blob/master/sections/data_reference.md#party).
 
 
 Search parties

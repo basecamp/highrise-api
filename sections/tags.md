@@ -3,7 +3,7 @@ Tags
 
 The tags API allows you to add, update, and delete tags from parties (people and companies), cases, and deals. In the documentation below, the generic `#{subject_type}` text must be replaced in practice with either `people`, `companies`, `kases`, or `deals`, and `#{subject_id}` should be the id of the subject (person, company, case or deal) that you want to manipulate or query the tags for.
 
-For the full XML representation of tags, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#tag).
+For the full XML representation of tags, [check out the data reference](https://github.com/basecamp/highrise-api/blob/master/sections/data_reference.md#tag).
 
 
 Get tags

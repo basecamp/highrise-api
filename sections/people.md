@@ -1,9 +1,9 @@
 People
 ======
 
-For the full XML representation of people, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#person).
+For the full XML representation of people, [check out the data reference](https://github.com/basecamp/highrise-api/blob/master/sections/data_reference.md#person).
 
-Note: [Custom fields](https://github.com/37signals/highrise-api/blob/master/sections/custom_fields.md#person) appear inside the ``<subject-datas></subject-datas>`` XML tags.
+Note: [Custom fields](https://github.com/basecamp/highrise-api/blob/master/sections/custom_fields.md#person) appear inside the ``<subject-datas></subject-datas>`` XML tags.
 
 Get people
 ----------

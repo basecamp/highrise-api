@@ -1,7 +1,7 @@
 Notes
 =====
 
-For the full XML representation of notes, [check out the data reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md#note).
+For the full XML representation of notes, [check out the data reference](https://github.com/basecamp/highrise-api/blob/master/sections/data_reference.md#note).
 
 
 Get note

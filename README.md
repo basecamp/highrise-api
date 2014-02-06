@@ -21,28 +21,28 @@ Wrote your own API wrapper? Feel free to open a pull request and add to this lis
 API Endpoints
 -------------
 
-* [People](https://github.com/37signals/highrise-api/blob/master/sections/people.md)
-* [Categories (Tasks, Deals)](https://github.com/37signals/highrise-api/blob/master/sections/categories.md)
-* [Companies](https://github.com/37signals/highrise-api/blob/master/sections/companies.md)
-* [Cases](https://github.com/37signals/highrise-api/blob/master/sections/cases.md)
-* [Deals](https://github.com/37signals/highrise-api/blob/master/sections/deals.md)
-* [Notes](https://github.com/37signals/highrise-api/blob/master/sections/notes.md)
-* [Emails](https://github.com/37signals/highrise-api/blob/master/sections/emails.md)
-* [Comments](https://github.com/37signals/highrise-api/blob/master/sections/comments.md)
-* [Tags](https://github.com/37signals/highrise-api/blob/master/sections/tags.md)
-* [Tasks](https://github.com/37signals/highrise-api/blob/master/sections/tasks.md)
-* [Users](https://github.com/37signals/highrise-api/blob/master/sections/users.md)
-* [Groups](https://github.com/37signals/highrise-api/blob/master/sections/groups.md)
-* [Memberships](https://github.com/37signals/highrise-api/blob/master/sections/memberships.md)
-* [Account](https://github.com/37signals/highrise-api/blob/master/sections/account.md)
-* [Parties](https://github.com/37signals/highrise-api/blob/master/sections/parties.md)
-* [Recordings](https://github.com/37signals/highrise-api/blob/master/sections/recordings.md)
-* [Custom Fields](https://github.com/37signals/highrise-api/blob/master/sections/custom_fields.md)
-* [Deletions](https://github.com/37signals/highrise-api/blob/master/sections/deletions.md)
+* [People](https://github.com/basecamp/highrise-api/blob/master/sections/people.md)
+* [Categories (Tasks, Deals)](https://github.com/basecamp/highrise-api/blob/master/sections/categories.md)
+* [Companies](https://github.com/basecamp/highrise-api/blob/master/sections/companies.md)
+* [Cases](https://github.com/basecamp/highrise-api/blob/master/sections/cases.md)
+* [Deals](https://github.com/basecamp/highrise-api/blob/master/sections/deals.md)
+* [Notes](https://github.com/basecamp/highrise-api/blob/master/sections/notes.md)
+* [Emails](https://github.com/basecamp/highrise-api/blob/master/sections/emails.md)
+* [Comments](https://github.com/basecamp/highrise-api/blob/master/sections/comments.md)
+* [Tags](https://github.com/basecamp/highrise-api/blob/master/sections/tags.md)
+* [Tasks](https://github.com/basecamp/highrise-api/blob/master/sections/tasks.md)
+* [Users](https://github.com/basecamp/highrise-api/blob/master/sections/users.md)
+* [Groups](https://github.com/basecamp/highrise-api/blob/master/sections/groups.md)
+* [Memberships](https://github.com/basecamp/highrise-api/blob/master/sections/memberships.md)
+* [Account](https://github.com/basecamp/highrise-api/blob/master/sections/account.md)
+* [Parties](https://github.com/basecamp/highrise-api/blob/master/sections/parties.md)
+* [Recordings](https://github.com/basecamp/highrise-api/blob/master/sections/recordings.md)
+* [Custom Fields](https://github.com/basecamp/highrise-api/blob/master/sections/custom_fields.md)
+* [Deletions](https://github.com/basecamp/highrise-api/blob/master/sections/deletions.md)
 
 (Hint: Press `t` to enable the file finder and type out the endpoint you need!)
 
-Need a sample of each XML blob will look like? Check out the [Data Reference](https://github.com/37signals/highrise-api/blob/master/sections/data_reference.md).
+Need a sample of each XML blob will look like? Check out the [Data Reference](https://github.com/basecamp/highrise-api/blob/master/sections/data_reference.md).
 
 
 Authentication
@@ -58,7 +58,7 @@ Here's an example using the authentication token and a dummy password through cu
 
 Remember that anyone who has your authentication token can see and change everything you have access to. So you want to guard that as well as you guard your username and password. If you come to fear that it has been compromised, you can regenerate it at any time from the "My Info" screen in Highrise.
 
-You can also use OAuth 2 to authenticate users on their behalf without having to copy/paste API tokens or touch sensitive login info. Read the [37signals API Authentication Guide](https://github.com/37signals/api/tree/master/sections/authentication.md) for more info on using OAuth.
+You can also use OAuth 2 to authenticate users on their behalf without having to copy/paste API tokens or touch sensitive login info. Read the [Basecamp API Authentication Guide](https://github.com/basecamp/api/tree/master/sections/authentication.md) for more info on using OAuth.
 
 Note that the `/me.xml` endpoint is the one exception to token authentication: you can use a username and password to authenticate against this action. This allows developers to obtain the token for a user, given that user's username and password, which makes it easier for users to authenticate on mobile platforms and the like.
 
@@ -163,6 +163,6 @@ In the documentation that follows, the following notation is used:
 Help us make it better
 ----------------------
 
-Please tell us how we can make this API better. If you have a specific feature request or if you found a bug, please [open a support ticket](http://help.37signals.com/tickets/new). Also, feel free to fork these docs and send a pull request with improvements!
+Please tell us how we can make this API better. If you have a specific feature request or if you found a bug, please [open a support ticket](http://help.basecamp.com/tickets/new). Also, feel free to fork these docs and send a pull request with improvements!
 
-To talk with us and other developers about the API, subscribe to the [37signals-api mailing list](http://groups.google.com/group/37signals-api).
+To talk with us and other developers about the API, [post a question on StackOverflow](http://stackoverflow.com/questions/ask) tagged `highrise` or [open a support ticket](http://help.basecamp.com/tickets/new).
