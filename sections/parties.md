@@ -28,7 +28,7 @@ Results are paged in groups of 25. Use `?n=25` to check for the next 25 results 
 Get recently viewed parties
 ---------------------------
 
-* `GET /parties/recently_viewed.xml` returns the last 50 people and companies viewed.
+* `GET /parties/parties.xml?scope=recently_viewed` returns the last 50 people and companies viewed.
 
 **Response:**
 
