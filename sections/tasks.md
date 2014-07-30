@@ -62,7 +62,7 @@ Create task for time frame
 
 * `POST /tasks.xml` creates a new task for a generic frame like today or next week.
 
-The possible frames are: `today`, `tomorrow`, `this_week`, `next_week`, and `later`.
+The possible frames are: `today`, `tomorrow`, `this_week`, `next_week`, `later` and `overdue`.
 
 If this task relates to a specific subject, like a person, company or case, you should set the `subject-id` and `subject-type` (use `Party` for person/company and `Kase` for case).
 
