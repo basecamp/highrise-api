@@ -51,7 +51,7 @@ Get notes
 
 * `GET /#{ people || companies || kases || deals }/#{subject-id}/notes.xml` returns a collection of notes that are visible to the authenticated user and related to a specific person, company, case or deal.
 
-* `GET /#{ people || companies || kases || deals }/#{subject-id}/notes.xmlsince=20070425154546` returns only the notes that have been updated since the time in the query parameter. The collection will be ordered from oldest to newest. The `since` parameter is expressed as `yyyymmddhhmmss` in the UTC timezone.
+* `GET /#{ people || companies || kases || deals }/#{subject-id}/notes.xml?since=20070425154546` returns only the notes that have been updated since the time in the query parameter. The collection will be ordered from oldest to newest. The `since` parameter is expressed as `yyyymmddhhmmss` in the UTC timezone.
 
 Notes are paginated using offsets. If 25 elements are returned (the page limit), use `?n=25` to fetch the next 25, and so on.
 
