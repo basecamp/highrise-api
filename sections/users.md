@@ -40,6 +40,7 @@ Get user
   <email-address>john.doe@example.com</email-address>
   <created-at type="datetime">2007-04-23T20:25:29Z</created-at>
   <updated-at type="datetime">2007-04-23T20:25:29Z</updated-at>
+  <admin type="boolean">true</admin>
 </user>
 ```
 
