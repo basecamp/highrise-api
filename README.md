@@ -56,6 +56,10 @@ When using the authentication token, you don't need a separate password. But sin
 Here's an example using the authentication token and a dummy password through curl:
 
     curl -u 605b32dd:X https://example.highrisehq.com/people/1.xml
+    
+Here's an example using the authentication token and dummy password throught http GET
+   
+    HTTP GET https://605b32dd:x@example.highrisehq.com/people.xml
 
 Remember that anyone who has your authentication token can see and change everything you have access to. So you want to guard that as well as you guard your username and password. If you come to fear that it has been compromised, you can regenerate it at any time from the "My Info" screen in Highrise.
 
