@@ -133,7 +133,11 @@ Note that, in general, if a request causes a new record to be created (like a ne
 Rate limiting
 -------------
 
-You can perform up to 500 requests per 10 second period from the same IP address for the same account. If you exceed this limit, you'll get a `503 Service Unavailable` response for subsequent requests.  Check the `Retry-After` header to see how many seconds to wait before retrying the request.
+**Please note:** We've lowered the API limit call to searching for contacts via an email address to 2 requests in a 10 second period. 
+
+All other limits remain at up to 500 requests per 10 second period from the same IP address for the same account. 
+
+If you exceed this limit, you'll get a `503 Service Unavailable` response for subsequent requests.  Check the `Retry-After` header to see how many seconds to wait before retrying the request.
 
 SSL Usage
 ---------
