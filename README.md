@@ -12,7 +12,6 @@ Wrappers and example code
 * [Pyrise by FeedMagnet](https://github.com/feedmagnet/pyrise)
 * [Highton (Python) by bykof](https://github.com/seibert-media/Highton)
 * [Highrise-PHP-Api](https://github.com/ignaciovazquez/Highrise-PHP-Api)
-* [PHP API Wrapper](http://101tec.com/en/open-source/highrise-api-wrapper)
 * [.NET 4.5 wrapper by scottschluer](https://github.com/scottschluer/highrise-api)
 * [Highrise Java API](https://github.com/dnobel/highrise-java-api)
 
