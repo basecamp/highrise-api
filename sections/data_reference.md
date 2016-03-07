@@ -124,7 +124,7 @@ Contact data for person and company
 </contact-data>
 ```
 
-Custom fields
+Party and Deal Custom fields
 -------------
 
 ``` xml
@@ -132,6 +132,7 @@ Custom fields
   <subject_data>
     <id type="integer">3</id>
     <value>Chicago</value>
+    <type>party or deal</type>
     <subject_field_id type="integer">1</subject_field_id>
     <subject_field_label>Sales Region</subject_field_label>
   </subject_data>
