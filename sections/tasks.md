@@ -205,21 +205,18 @@ Create recurring tasks using `recurring_period` and `anchor_type` in the creatio
 </task>
 ```
 
-The `recurring period` can be one of 6 integers for specific time frames. For example, `0` to recur `Every day`. 
+The `recurring period` can be one of 6 integers for specific time frames. Possible recurring time frames include `Every day`, `Every week`, `Every two weeks`, `Every month`, `Every three months`, `Every six months`, and `Every year`.
 
-Possible recurring time frames include `Every day`, `Every week`, `Every two weeks`, `Every month`, `Every three months`, `Every six months`, and `Every year`.
+Values for each time frame: 
 
+- 0 = Every day
+- 1 = Every week
+- 2 = Every two weeks
+- 3 = Every month
+- 4 = Every three months
+- 5 = Every six months
+- 7 = Every year
 
- ```
- <select id="task_recurring_period" name="task[recurring_period]"><option value="">No</option>
-<option value="0">Every day</option>
-<option value="1">Every week</option>
-<option value="2">Every two weeks</option>
-<option value="3">Every month</option>
-<option value="4">Every three months</option>
-<option value="7">Every six months</option>
-<option value="5">Every year</option></select>
-```
 
 The `anchor type` parameter determines when to schedule the next task from, either at the time of completion or the original due date time. The values are either `0` or `1`, `0 for time completed` and `1 for original due time`.
 
