@@ -136,7 +136,9 @@ Rate limiting
 
 All other limits remain at up to 500 requests per 10 second period from the same IP address for the same account. 
 
-If you exceed this limit, you'll get a `503 Service Unavailable` response for subsequent requests.  Check the `Retry-After` header to see how many seconds to wait before retrying the request.
+Regardless of these limits, your integrations with our API should handle `503 Service Unavailable` errors returned. Those will be returned if you exceed our limit, or we may have a temporary limit in place to handle surges or problematic load to the API. 
+
+Check for `503 Service Unavailable` response from your requests and be sure to check the `Retry-After` header to see how many seconds to wait before retrying the request.
 
 SSL Usage
 ---------
