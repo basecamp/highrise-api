@@ -32,6 +32,8 @@ Get tagged parties
 
 This endpoint will not include deals and cases for that tag.
 
+The list is paginated using offsets. If 500 elements are returned (the page limit), use ?n=500 (e.g. `GET /tags/#{id}.xml?n=500`) to check for the next 500 and so on.
+
 **Response:**
 
 ``` xml
