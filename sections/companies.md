@@ -176,6 +176,8 @@ Contact data and Subject data that include an id will be updated, data that does
 
 Use `?reload=true` to get XML of the successfully updated company.
 
+The request 'Content-Type' header should be set to 'application/xml'
+
 **Request:**
 
 ``` xml
