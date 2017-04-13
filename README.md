@@ -83,6 +83,22 @@ Here's a few examples of reading with curl:
 
 If the read is successful, you'll get an XML response back along with the status code `200 OK`.
 
+Note that a pagination limit of 500 records applies to all API endpoints that return multiple items (with the exception of `GET /parties/recently_viewed.xml`, which is limited to 50). When more than 500 records exist, 501 records will be returned to indicate there are more records.
+
+Here's an example of how this may play out given a result set of 1015 deals. An initial `GET` request is made to the `/deals.xml` endpoint:
+
+    curl -u 605b32dd:X https://example.highrisehq.com/deals.xml
+    
+The above request would return 501 records (0-500) to indicate more deals are present. Therefore a subsequent request is made to obtain the next page of records starting from 500:
+
+    curl -u 605b32dd:X https://example.highrisehq.com/deals.xml?n=500
+    
+This request returns a further 501 records (500-1000) so the next page of records is requested starting from 1000:
+
+    curl -u 605b32dd:X https://example.highrisehq.com/deals.xml?n=1000
+    
+This request returns 15 records (1000-1014) and indicates that no further records exist.
+    
 
 Writing through the API
 -----------------------
