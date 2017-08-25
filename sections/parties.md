@@ -24,6 +24,15 @@ Results are paged in groups of 25. Use `?n=25` to check for the next 25 results 
 </parties>
 ```
 
+Strict party search
+-------------------
+
+Add `&strict=1` after the query parameters to return strict name results. 
+
+For example: `/parties/search.xml?name=jon&strict=1` returns any contacts with the name `Jon`. 
+
+And `/parties/search.xml?name=jo&strict=1` does **not** return any contacts with `Jo` in their name. 
+
 
 Get recently viewed parties
 ---------------------------
