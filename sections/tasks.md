@@ -27,6 +27,8 @@ Get task
   <author-id type="integer">1</author-id>
   <updated-at type="datetime"></updated-at>
   <public type="boolean">false</public>
+  <recurring-period nil="true"/>
+  <anchor-type type="integer">0</anchor-type>
 </task>
 ```
 
@@ -87,8 +89,11 @@ If you want to assign the task to someone else, but not trigger an assignment no
   <owner-id type="integer">#{owner_user.id}</owner-id>
   <public type="boolean">#{true|false}</public>
   <notify type="boolean">#{true|false}</notify>
+  <recurring-period nil="#{true|}">#{0|1|2|3|4|5|7}</recurring-period>
+  <anchor-type type="integer">#{0|1}</anchor-type>
 </task>
 ```
+
 
 **Response:**
 
@@ -124,6 +129,8 @@ See the description for [Create task for time frame](#create-task-for-time-frame
   <owner-id type="integer">#{owner_user.id}</owner-id>
   <public type="boolean">#{true|false}</public>
   <notify type="boolean">#{true|false}</notify>
+  <recurring-period nil="#{true|}">#{0|1|2|3|4|5|7}</recurring-period>
+  <anchor-type type="integer">#{0|1}</anchor-type>
 </task>
 ```
 
@@ -183,3 +190,59 @@ Destroy task
 **Response:**
 
     Status: 200 OK
+
+Recurring tasks
+------------
+
+Create recurring tasks using `recurring_period` and `anchor_type` in the creation parameters. If a task is recurring, the `recurring-period` will not be nil. 
+
+```
+<task>
+  <body>A task for today</body>
+  <frame>today</frame>
+  <recurring_period>1</recurring_period>
+  <anchor_type>0</anchor_type>
+</task>
+```
+
+The `recurring period` can be one of 6 integers for specific time frames. Possible recurring time frames include `Every day`, `Every week`, `Every two weeks`, `Every month`, `Every three months`, `Every six months`, and `Every year`.
+
+Values for each time frame: 
+
+- 0 = Every day
+- 1 = Every week
+- 2 = Every two weeks
+- 3 = Every month
+- 4 = Every three months
+- 5 = Every six months
+- 7 = Every year
+
+
+The `anchor type` parameter determines when to schedule the next task from, either at the time of completion or the original due date time. The values are either `0` or `1`, `0 for time completed` and `1 for original due time`.
+
+```
+<task>
+<alert-at type="datetime" nil="true"/>
+<author-id type="integer">1060942</author-id>
+<body>
+Contact Ben about Highrise (Jason Z mentioned he was a big fan)
+</body>
+<category-id type="integer">5092829</category-id>
+<created-at type="datetime">2014-09-03T15:12:24Z</created-at>
+<done-at type="datetime" nil="true"/>
+<due-at type="datetime" nil="true"/>
+<id type="integer">41848107</id>
+<owner-id type="integer">1060942</owner-id>
+<recording-id type="integer" nil="true"/>
+<subject-id type="integer">215787212</subject-id>
+<subject-type>Party</subject-type>
+<updated-at type="datetime">2014-12-12T20:52:10Z</updated-at>
+<public type="boolean">true</public>
+<frame>later</frame>
+<subject-name>Ben garvey</subject-name>
+<recurring-period nil="true"/>
+<anchor-type type="integer">0</anchor-type>
+</task>
+```
+
+[Read more documentation about recurring tasks](https://help.highrisehq.com/tasks/recurring-tasks/).
