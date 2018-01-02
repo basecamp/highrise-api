@@ -119,7 +119,6 @@ See the description for [Create task for time frame](#create-task-for-time-frame
   <body>A timed task for the future</body>
   <frame>specific</frame>
   <due-at type="datetime">2007-03-10T15:11:52Z</due-at>
-  <category-id>1</category-id>
 
   <!-- optional -->
   <subject-type>#{Party|Company|Kase|Deal}</subject-type>
