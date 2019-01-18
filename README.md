@@ -134,7 +134,7 @@ Rate limiting
 
 **Please note:** We've lowered the API limit call to searching for contacts via an email address to 2 requests in a 10 second period. 
 
-All other limits remain at up to 500 requests per 10 second period from the same IP address for the same account. 
+All other limits remain at up to 150 requests per 5 second period from the same IP address for the same account. 
 
 Regardless of these limits, your integrations with our API should handle `503 Service Unavailable` errors returned. Those will be returned if you exceed our limit, or we may have a temporary limit in place to handle surges or problematic load to the API. 
 
