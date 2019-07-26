@@ -132,7 +132,7 @@ Note that, in general, if a request causes a new record to be created (like a ne
 Rate limiting
 -------------
 
-**Please note:** We've lowered the API limit call to searching for contacts via an email address to 2 requests in a 10 second period. 
+**Please note:** We've lowered the API limit call to searching for contacts via an email address to 2 requests in a 10 second period and requests to `GET /recordings.xml` to 10 requests in 10 seconds.
 
 All other limits remain at up to 150 requests per 5 second period from the same IP address for the same account. 
 
