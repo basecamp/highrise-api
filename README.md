@@ -8,7 +8,7 @@ You can explore the view part of the API (everything that's fetched with GET) th
 Wrappers and example code
 -------------------------
 
-* [Ruby wrapper by tapajos](http://github.com/tapajos/highrise)
+* [Ruby wrapper by tapajos and kmayer](http://github.com/tapajos/highrise)
 * [Pyrise by FeedMagnet](https://github.com/feedmagnet/pyrise)
 * [Highton (Python) by bykof](https://github.com/seibert-media/Highton)
 * [Highrise-PHP-Api](https://github.com/ignaciovazquez/Highrise-PHP-Api)
