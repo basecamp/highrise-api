@@ -5,19 +5,6 @@ The Highrise API is implemented as vanilla XML over HTTP using all four verbs (G
 
 You can explore the view part of the API (everything that's fetched with GET) through a regular browser. Using Firefox for this is particularly nice as it has a good, simple XML renderer (unlike Safari which just strips the tags and dumps the content). Pretty much any URL in Highrise can be viewed in its XML form by adding the .xml extension. So `/people/4` becomes `/people/4.xml` if you want to see the XML version.
 
-Wrappers and example code
--------------------------
-
-* [Ruby wrapper by tapajos](http://github.com/tapajos/highrise)
-* [Pyrise by FeedMagnet](https://github.com/feedmagnet/pyrise)
-* [Highton (Python) by bykof](https://github.com/seibert-media/Highton)
-* [Highrise-PHP-Api](https://github.com/ignaciovazquez/Highrise-PHP-Api)
-* [.NET 4.5 wrapper by scottschluer](https://github.com/scottschluer/highrise-api)
-* [Highrise Java API](https://github.com/dnobel/highrise-java-api)
-
-Wrote your own API wrapper? Feel free to open a pull request and add to this list!
-
-
 API Endpoints
 -------------
 
